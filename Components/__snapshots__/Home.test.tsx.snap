@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountryDetails Screen Test Crenders snapshot as expected 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="numeric"
+      onChangeText={[Function]}
+      placeholder="Enter Asteroid ID"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "borderWidth": 1,
+          "height": 50,
+          "paddingLeft": 10,
+          "width": "60%",
+        }
+      }
+      testID="asteroidid"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "marginTop": 10,
+      }
+    }
+  >
+    <RNGestureHandlerButton
+      collapsable={false}
+      exclusive={true}
+      onGestureEvent={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onHandlerStateChange={[Function]}
+      rippleColor={0}
+      testID="submit"
+    >
+      <View
+        accessible={true}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 5,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+            }
+          }
+          testID="submitText"
+        >
+          Submit
+        </Text>
+      </View>
+    </RNGestureHandlerButton>
+    <RNGestureHandlerButton
+      collapsable={false}
+      exclusive={true}
+      onGestureEvent={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onHandlerStateChange={[Function]}
+      rippleColor={0}
+      testID="random"
+    >
+      <View
+        accessible={true}
+        style={
+          Object {
+            "backgroundColor": "blue",
+            "borderRadius": 5,
+            "marginLeft": 10,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+            }
+          }
+          testID="randomText"
+        >
+          Random
+        </Text>
+      </View>
+    </RNGestureHandlerButton>
+  </View>
+</View>
+`;

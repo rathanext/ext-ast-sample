@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountryDetails Screen Test Crenders snapshot as expected 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNGestureHandlerButton
+    collapsable={false}
+    exclusive={true}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+  >
+    <View
+      accessible={true}
+      style={
+        Object {
+          "marginLeft": 20,
+          "marginTop": 20,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+        testID="name"
+      >
+        Go Back
+      </Text>
+    </View>
+  </RNGestureHandlerButton>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginTop": 50,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 24,
+        }
+      }
+    >
+      Name: 
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 24,
+        }
+      }
+    >
+      Nasa Jpl Url:
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 24,
+        }
+      }
+    >
+      Nasa Potential:
+      No
+    </Text>
+  </View>
+</View>
+`;
